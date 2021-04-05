@@ -15,7 +15,7 @@ interface SeriesService {
         @Query("apikey")
         apiKey: String= ""
 
-    )
+    ) : Poster
 }
 
 val retrofit: Retrofit = Retrofit.Builder()
